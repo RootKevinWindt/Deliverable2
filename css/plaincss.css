@@ -113,9 +113,21 @@ main {
     color: deepskyblue;
     text-align: center;
 }
+.form__center {
+    border: 1px solid black;
+
+}
+.section4__form {
+    text-align: center;
+}
+.form__button {
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+}
 footer {
-    border: 1px solid lightgrey;
-    background-color: lightgrey;
+    border: 1px solid white;
+    background-color: white;
     height: 30px;
 }
 .footer__list {
