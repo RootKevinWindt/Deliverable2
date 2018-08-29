@@ -1,6 +1,16 @@
+body {
+    background-color: lightskyblue;
+}
+main {
+    margin: 10%;
+}
+.sections {
+    opacity: 0.6;
+    background-color: white
+}
 .navigation {
-    border: 1px solid lightgrey;
-    background-color: lightgrey;
+    border: solid white;
+    background-color: white;
     height: 30px;
 }
 .navigation__list {
@@ -14,6 +24,8 @@
 .navigation__header {
     display: inline;
     float: left;
+    font-weight: bold;
+    color: deeppink;
 }
 .navigation__link:link {
     color: black;
