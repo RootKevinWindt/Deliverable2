@@ -5,7 +5,7 @@ main {
     margin: 10%;
 }
 .sections {
-    opacity: 0.6;
+    opacity: 0.75;
     background-color: white
 }
 .navigation {
@@ -26,18 +26,39 @@ main {
     float: left;
     font-weight: bold;
     color: deeppink;
+    margin: 8px 8px 8px 60px;
+    text-align: center;
 }
 .navigation__link:link {
-    color: black;
+    color: darkgrey;
     text-decoration: none;
 }
 .navigation__link:visited {
-    color: black;
+    color: darkgrey;
     text-decoration: none;
 }
 .navigation__link:hover {
-    color: darkgrey;
+    color: grey;
     text-decoration: none;
+}
+.navigation__button {
+    border: 2px solid dodgerblue;
+    border-radius: 10px ;
+    color: dodgerblue;
+    padding: 4px;
+}
+.navigation__button:hover {
+    background-color: lightskyblue;
+}
+.menu {
+    float: right;
+}
+.ruimte {
+    height: 40px;
+}
+.section1__tekst1 {
+    color: grey;
+    text-align: center;
 }
 footer {
     border: 1px solid lightgrey;
