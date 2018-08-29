@@ -56,8 +56,18 @@ main {
 .ruimte {
     height: 40px;
 }
+.section1 {
+    margin-bottom: 60px;
+}
 .section1__tekst1 {
     color: grey;
+    text-align: center;
+}
+.section1__header {
+    color: deepskyblue;
+    text-align: center;
+}
+.section1__paragraaf1 {
     text-align: center;
 }
 footer {
