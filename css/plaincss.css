@@ -27,3 +27,16 @@
     color: darkgrey;
     text-decoration: none;
 }
+footer {
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    height: 30px;
+}
+.footer__list {
+    margin: 8px auto;
+    text-align: center;
+}
+.footer__item {
+    display: inline;
+    margin: 4px;
+}
