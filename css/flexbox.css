@@ -9,13 +9,14 @@ main {
     background-color: white
 }
 .navigation {
-    border: solid white;
     background-color: white;
     height: 30px;
+    display: flex;
+    flex-direction: row;
 }
 .navigation__list {
     margin: 8px auto;
-    text-align: center;
+    display: inline;
 }
 .navigation__item {
     display: inline;
@@ -125,6 +126,12 @@ main {
     background-color: dodgerblue;
     color: white;
 }
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: white;
+}
 .footer__list {
     margin: 8px auto;
     text-align: center;
@@ -132,11 +139,5 @@ main {
 .footer__item {
     display: inline;
     margin: 4px;
-}
-.footer {
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    background-color: white;
 }
 
