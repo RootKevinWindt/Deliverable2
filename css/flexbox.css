@@ -125,11 +125,6 @@ main {
     background-color: dodgerblue;
     color: white;
 }
-footer {
-    border: 1px solid white;
-    background-color: white;
-    height: 30px;
-}
 .footer__list {
     margin: 8px auto;
     text-align: center;
@@ -138,17 +133,10 @@ footer {
     display: inline;
     margin: 4px;
 }
-.flex-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
+.footer {
     display: flex;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: horizontal;
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    -ms-flex-direction: row;
     flex-direction: row;
+    height: 50px;
+    background-color: white;
 }
 
