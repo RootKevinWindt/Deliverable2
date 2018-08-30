@@ -138,4 +138,11 @@ footer {
     display: inline;
     margin: 4px;
 }
+.flex-container {
+    display: -webkit-box | -webkit-inline-box;
+    display: -webkit-flex | -webkit-inline-flex;
+    display: -moz-flex | -moz-inline-flex;
+    display: -ms-flexbox | -ms-inline-flexbox;
+    display: flex | inline-flex;
+}
 
