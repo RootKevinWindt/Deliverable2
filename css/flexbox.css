@@ -76,7 +76,7 @@ main {
     text-align: center;
 }
 .section2 {
-    margin: 0px 80px 0px 80px;
+    margin: 0 80px 0 80px;
 }
 .section2__columns {
     background-color: grey;
@@ -92,7 +92,7 @@ main {
     clear: both;
 }
 .section3 {
-    margin: 0px 80px 0px 80px;
+    margin: 0 80px 0 80px;
 }
 .section3__header {
     color: deepskyblue;
@@ -112,7 +112,7 @@ main {
     clear: both;
 }
 .section4 {
-    margin: 0px 80px 0px 80px;
+    margin: 0 80px 0 80px;
 }
 .section4__header {
     color: deepskyblue;
@@ -144,4 +144,5 @@ main {
     display: inline;
     margin: 4px;
 }
+
 
