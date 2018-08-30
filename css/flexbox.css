@@ -139,10 +139,16 @@ footer {
     margin: 4px;
 }
 .flex-container {
-    display: -webkit-box | -webkit-inline-box;
-    display: -webkit-flex | -webkit-inline-flex;
-    display: -moz-flex | -moz-inline-flex;
-    display: -ms-flexbox | -ms-inline-flexbox;
-    display: flex | inline-flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
 
