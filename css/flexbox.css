@@ -1,0 +1,141 @@
+body {
+    background-color: lightskyblue;
+}
+main {
+    margin: 10%;
+}
+.sections {
+    opacity: 0.75;
+    background-color: white
+}
+.navigation {
+    border: solid white;
+    background-color: white;
+    height: 30px;
+}
+.navigation__list {
+    margin: 8px auto;
+    text-align: center;
+}
+.navigation__item {
+    display: inline;
+    margin: 4px;
+}
+.navigation__header {
+    display: inline;
+    float: left;
+    font-weight: bold;
+    color: deeppink;
+    margin: 8px 8px 8px 60px;
+    text-align: center;
+}
+.navigation__link:link {
+    color: darkgrey;
+    text-decoration: none;
+}
+.navigation__link:visited {
+    color: darkgrey;
+    text-decoration: none;
+}
+.navigation__link:hover {
+    color: grey;
+    text-decoration: none;
+}
+.navigation__button {
+    border: 2px solid dodgerblue;
+    border-radius: 10px ;
+    color: dodgerblue;
+    padding: 4px;
+}
+.navigation__button:hover {
+    background-color: lightskyblue;
+}
+.menu {
+    float: right;
+}
+.ruimte {
+    height: 40px;
+}
+.section1 {
+    margin-bottom: 60px;
+}
+.section1__tekst1 {
+    color: grey;
+    text-align: center;
+}
+.section1__header {
+    color: deepskyblue;
+    text-align: center;
+}
+.section1__paragraaf1 {
+    text-align: center;
+}
+.section2__header {
+    color: deepskyblue;
+    text-align: center;
+}
+.section2 {
+    margin: 0px 80px 0px 80px;
+}
+.section2__columns {
+    background-color: grey;
+    float: left;
+    text-align: center;
+    width: calc(95%/4);
+    margin: 5px;
+    height: 180px;
+}
+.section2__clear {
+    clear: both;
+}
+.section3 {
+    margin: 0px 80px 0px 80px;
+}
+.section3__header {
+    color: deepskyblue;
+    text-align: center;
+}
+.section3__columns {
+    background-color: grey;
+    float: left;
+    text-align: center;
+    width: calc(95%/4);
+    margin: 5px;
+    height: 180px;
+}
+.section3__clear {
+    clear: both;
+}
+.section4 {
+    margin: 0px 80px 0px 80px;
+}
+.section4__header {
+    color: deepskyblue;
+    text-align: center;
+}
+.form__center {
+    border: 1px solid black;
+
+}
+.section4__form {
+    text-align: center;
+}
+.form__button {
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+}
+footer {
+    border: 1px solid white;
+    background-color: white;
+    height: 30px;
+}
+.footer__list {
+    margin: 8px auto;
+    text-align: center;
+}
+.footer__item {
+    display: inline;
+    margin: 4px;
+}
+
