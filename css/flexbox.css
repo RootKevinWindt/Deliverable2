@@ -85,6 +85,8 @@ main {
     width: calc(95%/4);
     margin: 5px;
     height: 180px;
+    display: flex;
+    flex-direction: row;
 }
 .section2__clear {
     clear: both;
@@ -103,6 +105,8 @@ main {
     width: calc(95%/4);
     margin: 5px;
     height: 180px;
+    display: flex;
+    flex-direction: row;
 }
 .section3__clear {
     clear: both;
