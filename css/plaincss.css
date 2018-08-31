@@ -4,7 +4,7 @@ body {
 main {
     margin: 10%;
 }
-.sections {
+.main__section {
     opacity: 0.75;
     background-color: white
 }
@@ -53,7 +53,7 @@ main {
 .menu {
     float: right;
 }
-.ruimte {
+.whitespace {
     height: 40px;
 }
 .section1 {
